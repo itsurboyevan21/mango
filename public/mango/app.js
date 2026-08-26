@@ -20,9 +20,11 @@
     cam: `<svg viewBox="0 0 28 24"><path d="M3.5 7.5h4l1.6-2.2h9.8l1.6 2.2H24.5v12H3.5z" fill="none" stroke="#1C1C1E" stroke-width="1.7" stroke-linejoin="round"/><circle cx="14" cy="13.4" r="3.6" fill="none" stroke="#1C1C1E" stroke-width="1.6"/><circle cx="14" cy="13.4" r="1.8" fill="#FFD60A"/></svg>`,
     bulb: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 1 3.5 10.7c-.9.7-1.5 1.6-1.5 2.6h-4c0-1-.6-1.9-1.5-2.6A6 6 0 0 1 12 3z"/></svg>`,
     wand: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 20L14 10"/><path d="M15 5.2l.4 1.6 1.6.4-1.6.4L15 9.2l-.4-1.6-1.6-.4 1.6-.4z"/><path d="M19.2 11.2l.3 1.1 1.1.3-1.1.3-.3 1.1-.3-1.1-1.1-.3 1.1-.3z"/></svg>`,
-    house: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.2L3.8 11h2.2v8.2h4.4v-5h3.2v5h4.4V11h2.2z"/></svg>`,
-    houseOff: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 11.2L12 4.5l8 6.7V20H4z"/><path d="M9.5 20v-6h5v6"/></svg>`,
+    house: `<svg viewBox="0 0 24 24" fill="none"><path d="M9.5 20.5V16C9.5 14.619 10.619 13.5 12 13.5C13.381 13.5 14.5 14.619 14.5 16V20.5H20V11.914C20 11.384 19.789 10.875 19.414 10.5L12.707 3.79301C12.316 3.40201 11.683 3.40201 11.293 3.79301L4.586 10.5C4.211 10.875 4 11.384 4 11.914V20.5H9.5Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+    houseOff: `<svg viewBox="0 0 24 24" fill="none"><path d="M9.5 20.5V16C9.5 14.619 10.619 13.5 12 13.5C13.381 13.5 14.5 14.619 14.5 16V20.5H20V11.914C20 11.384 19.789 10.875 19.414 10.5L12.707 3.79301C12.316 3.40201 11.683 3.40201 11.293 3.79301L4.586 10.5C4.211 10.875 4 11.384 4 11.914V20.5H9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
     smile: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8.2"/><circle cx="9" cy="10" r="1" fill="currentColor"/><circle cx="15" cy="10" r="1" fill="currentColor"/><path d="M8.6 14.2c.9 1.4 2.3 2.2 3.4 2.2s2.5-.8 3.4-2.2" stroke-linecap="round"/></svg>`,
+    chats: `<svg viewBox="0 0 24 24" fill="none"><path d="M7.7168 3.52343C9.7064 3.36337 11.8446 4.12242 13.3584 5.4082C15.0442 6.84969 16.0893 8.90148 16.2656 11.1123C16.4527 13.3724 15.7261 15.6136 14.248 17.334C12.7871 19.051 10.8435 19.9469 8.61914 20.125C6.4676 20.1996 4.49902 19.5586 2.86914 18.1289C1.17562 16.6625 0.147452 14.5732 0.0175773 12.3369C-0.12217 10.1204 0.617634 7.9378 2.07617 6.26269C3.50865 4.63932 5.52996 3.65351 7.69141 3.52538L7.7168 3.52343ZM17.0537 4.66503C19.6845 4.64758 22.0043 6.16331 23.1992 8.47656C24.0678 10.1707 24.2371 12.1387 23.6699 13.956C23.0706 15.8235 21.8393 17.3713 20.083 18.2715C18.5177 19.0767 16.6949 19.2201 15.0225 18.6709C14.8208 18.5976 14.6496 18.5303 14.4844 18.458C14.6465 18.2945 14.807 18.1249 14.96 17.9453C15.5252 17.2874 15.9886 16.5594 16.3486 15.7871C16.5058 15.8216 16.6683 15.8479 16.8555 15.8584C17.7041 15.9053 18.537 15.6157 19.1738 15.0527C19.6815 14.596 20.0407 13.9793 20.0771 13.2881C19.6709 13.2735 19.2072 13.2834 18.7979 13.2832H17.1152C17.229 12.565 17.2624 11.8305 17.2061 11.0937L17.2012 11.0342C17.0242 8.82543 16.0653 6.76187 14.5127 5.20312C15.1874 4.9038 15.7864 4.75094 16.6416 4.67871C16.7648 4.6629 16.9284 4.66589 17.0537 4.66503ZM11.8477 13.4053C9.72651 13.3697 7.59139 13.4239 5.46875 13.4023C5.14232 13.399 4.8017 13.3957 4.47559 13.4043C4.49044 14.1328 4.89717 14.8632 5.41699 15.3584C6.87961 16.7511 9.34398 16.7855 10.8359 15.4238C11.4025 14.8787 11.8187 14.2157 11.8477 13.4053ZM19.0596 9.14355C18.4822 9.22852 18.0825 9.76538 18.167 10.3428C18.2515 10.9201 18.7878 11.3201 19.3652 11.2363C19.9436 11.1522 20.3444 10.6143 20.2598 10.0361C20.1748 9.45838 19.6374 9.05863 19.0596 9.14355ZM5.55762 8.72265C4.86948 8.72379 4.31207 9.28274 4.31348 9.9707C4.31515 10.6589 4.87517 11.2151 5.56348 11.2129C6.25086 11.2105 6.80636 10.6521 6.80469 9.96484C6.80284 9.27774 6.2448 8.72183 5.55762 8.72265ZM10.7158 8.72753C10.0318 8.76392 9.50617 9.34825 9.54199 10.0322C9.57811 10.7163 10.1624 11.2418 10.8467 11.206C11.5311 11.17 12.0576 10.5857 12.0215 9.90136C11.9853 9.21717 11.4002 8.69151 10.7158 8.72753Z" fill="currentColor"/></svg>`,
+    chatsOff: `<svg viewBox="0 0 24 24" fill="none"><path d="M13.642 5.61603C15.3682 4.69945 17.1541 4.44963 19.0447 5.02947C20.8234 5.58129 22.3083 6.82077 23.1696 8.47258C24.0645 10.1923 24.244 12.1959 23.6692 14.0474C23.1204 15.8679 21.8665 17.3932 20.1869 18.2835C18.5916 19.1131 16.7346 19.2833 15.0151 18.7575C14.6198 18.6341 13.9123 18.3489 13.5724 18.1114C13.8055 17.925 14.196 17.509 14.394 17.279C14.7254 17.4778 15.389 17.7031 15.7685 17.7879C17.2327 18.1184 18.7684 17.8483 20.0322 17.0381C21.3995 16.1668 22.3658 14.7887 22.719 13.206C23.0776 11.6131 22.7831 9.94284 21.9009 8.56893C21.0805 7.298 19.7348 6.33304 18.2503 6.01698C17.1895 5.78759 16.0861 5.85541 15.0614 6.21294C14.9246 6.26034 14.576 6.39104 14.4615 6.46515C14.2215 6.17124 13.9216 5.8718 13.642 5.61603Z" fill="#ABAAAA"/><path d="M15.539 15.5545C15.9174 14.729 16.0984 14.1804 16.2672 13.2854C16.3535 13.3074 17.063 13.2972 17.1983 13.2972L19.0986 13.2968C19.4241 13.2967 19.792 13.2873 20.1129 13.2988C20.1037 13.9488 19.8471 14.4393 19.3859 14.8914C18.7313 15.5214 17.8538 15.8664 16.9454 15.8511C16.4417 15.8441 16.0028 15.7427 15.539 15.5545Z" fill="#ABAAAA"/><path d="M19.0066 9.27231C19.5951 9.19307 20.1364 9.60616 20.2155 10.1949C20.2947 10.7837 19.8815 11.3251 19.293 11.4041C18.7045 11.483 18.1635 11.07 18.0845 10.4814C18.0054 9.89282 18.4182 9.35154 19.0066 9.27231Z" fill="#ABAAAA"/><path d="M7.52441 3.56076C9.86936 3.36613 11.8658 4.11145 13.6416 5.61643C13.9212 5.8722 14.2219 6.17115 14.4619 6.46506C15.9724 8.31402 16.5784 10.4087 16.3369 12.7795C16.3196 12.949 16.3 13.1178 16.2676 13.2854C16.0987 14.1804 15.9175 14.7294 15.5391 15.5549C15.18 16.2441 14.8885 16.6757 14.3936 17.2785C14.2451 17.4509 13.9889 17.7284 13.7715 17.9348L13.5723 18.1115C12.417 19.2069 10.5786 19.9477 9.00098 20.0891C6.82603 20.2794 4.66453 19.5984 2.99121 18.1955C1.29754 16.7736 0.226985 14.8182 0.0371102 12.6067C-0.174948 10.3752 0.520974 8.15221 1.9668 6.43967C3.36993 4.78772 5.36595 3.75389 7.52441 3.56076ZM8.04004 4.87131C4.19859 4.9632 1.15842 8.15183 1.24805 11.9944C1.33786 15.8371 4.52358 18.8799 8.36524 18.7922C12.2096 18.7042 15.2539 15.5147 15.1641 11.6692C15.074 7.82376 11.8842 4.77958 8.04004 4.87131Z" fill="#5A5A5A"/><path d="M4.48352 13.4844L11.9218 13.483C11.9226 13.523 11.922 13.5631 11.9199 13.603C11.8808 14.4082 11.486 14.9512 10.9148 15.4708C10.1182 16.1168 9.30637 16.4186 8.27638 16.4497C6.60248 16.5005 4.51202 15.3444 4.48352 13.4844Z" fill="#5A5A5A"/><path d="M5.51994 8.77672C6.21629 8.72373 6.82424 9.24427 6.87933 9.94066C6.9344 10.637 6.41584 11.2467 5.71983 11.3039C5.02082 11.3614 4.40812 10.84 4.3528 10.1406C4.29749 9.44124 4.82061 8.82994 5.51994 8.77672Z" fill="#5A5A5A"/><path d="M10.7027 8.77943C11.3968 8.73191 11.9987 9.25452 12.0493 9.94857C12.0999 10.6426 11.5801 11.247 10.8865 11.3007C10.1885 11.3547 9.57966 10.8308 9.52875 10.1324C9.47785 9.43397 10.0043 8.82726 10.7027 8.77943Z" fill="#5A5A5A"/></svg>`,
     heart: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 19l-6.2-5.6A3.8 3.8 0 1112 8.2a3.8 3.8 0 116.2 5.2z"/></svg>`,
     heartOn: `<svg viewBox="0 0 24 24" fill="#FF3B30" stroke="#FF3B30" stroke-width="1.4" stroke-linejoin="round"><path d="M12 19l-6.2-5.6A3.8 3.8 0 1112 8.2a3.8 3.8 0 116.2 5.2z"/></svg>`,
     bubble: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 6.5h14v9.5H9.5L5 19.5z" stroke-linejoin="round"/></svg>`,
@@ -387,12 +389,25 @@
     return `<div class="die n${n}" aria-label="${n}">${[1,2,3,4,5,6,7,8,9].map(i => `<i class="p${i}"></i>`).join("")}</div>`;
   }
   const appEl = () => $("#app");
+  function setThemeColor(c) {
+    let m = document.querySelector('meta[name="theme-color"]');
+    if (!m) {
+      m = document.createElement("meta");
+      m.setAttribute("name", "theme-color");
+      document.head.appendChild(m);
+    }
+    m.setAttribute("content", c);
+  }
   function go(screen, extra) {
     view = Object.assign({}, view, { screen: screen }, extra || {});
     render();
   }
   function render() {
     clearTimers();
+    const pageBg = (view.screen === "squad" || view.screen === "activity") ? "#FFF0E6" : "#FAF7F5";
+    setThemeColor(pageBg);
+    document.documentElement.style.setProperty("--page-bg", pageBg);
+    updateNav();
     if (view.screen === "splash") return renderSplash();
     if (view.screen === "onboard") return renderOnboard(0);
     if (view.screen === "onboard2") return renderOnboard(1);
@@ -484,17 +499,75 @@
     const w = (state.settings && state.settings.wallpaper) || "cream";
     return w === "cream" ? "" : " wp-" + w;
   }
-  function navPill(active) {
-    return `<div class="nav-pill">
-      <button type="button" data-nav="activity" class="${active==="activity"?"on":""}" aria-label="Activity">${ICONS.smile}</button>
-      <button type="button" data-nav="home" class="${active==="home"?"on":""}" aria-label="Home">${active==="home"?ICONS.house:ICONS.houseOff}</button>
-    </div>`;
+  function navIcons(active) {
+    return `<button type="button" data-nav="activity" class="${active==="activity"?"on":""}" aria-label="Activity">${active==="activity"?ICONS.chats:ICONS.chatsOff}</button>
+      <button type="button" data-nav="home" class="${active==="home"?"on":""}" aria-label="Home">${active==="home"?ICONS.house:ICONS.houseOff}</button>`;
   }
-  function bindNav() {
-    $$("[data-nav]").forEach(b => b.addEventListener("click", () => {
-      if (b.dataset.nav === "home") go("squad");
-      else go("activity");
-    }));
+  // Persistent nav pill: lives in #device (above #app) so the sliding pages pass
+  // underneath it instead of carrying it along. Created once; clicks are delegated.
+  function updateNav() {
+    const showOn = view.screen === "squad" || view.screen === "activity";
+    let pill = $("#navPill", $("#device"));
+    if (!showOn) { if (pill) pill.hidden = true; return; }
+    if (!pill) {
+      pill = document.createElement("div");
+      pill.className = "nav-pill";
+      pill.id = "navPill";
+      $("#device").appendChild(pill);
+      pill.addEventListener("click", e => {
+        const b = e.target.closest("[data-nav]");
+        if (!b) return;
+        const target = b.dataset.nav === "home" ? "squad" : "activity";
+        if (navAnimating || view.screen === target) return;
+        if (view.screen === "squad" || view.screen === "activity") slideNav(target);
+        else go(target);
+      });
+    }
+    pill.hidden = false;
+    pill.innerHTML = navIcons(view.screen === "squad" ? "home" : "activity");
+  }
+  let navAnimating = false;
+  function slideNav(target) {
+    const cur = appEl().querySelector(".screen");
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!cur || reduce) { go(target); return; }
+    // Activity is the left page, the home feed is the right page.
+    const goingLeft = target === "activity";
+    const enterFrom = goingLeft ? "-100%" : "100%";
+    const exitTo = goingLeft ? "100%" : "-100%";
+    // Snapshot the outgoing screen as a static clone (no listeners) + its scroll offsets.
+    const scrollTops = $$(".scroll", cur).map(s => s.scrollTop);
+    const ghost = cur.cloneNode(true);
+    ghost.classList.remove("fade-in", "push-in");
+    // Render the real incoming screen so its events bind correctly.
+    navAnimating = true;
+    go(target);
+    const incoming = appEl().querySelector(".screen");
+    if (!incoming) { navAnimating = false; return; }
+    incoming.classList.remove("fade-in", "push-in");
+    // Mount the ghost on top and restore its scroll position.
+    appEl().appendChild(ghost);
+    $$(".scroll", ghost).forEach((s, i) => { s.scrollTop = scrollTops[i] || 0; });
+    // Prime start positions, force one reflow, then animate both together.
+    incoming.style.transform = "translateX(" + enterFrom + ")";
+    ghost.style.transform = "translateX(0)";
+    void incoming.offsetWidth;
+    incoming.classList.add("nav-sliding");
+    ghost.classList.add("nav-sliding");
+    incoming.style.transform = "translateX(0)";
+    ghost.style.transform = "translateX(" + exitTo + ")";
+    let finished = false;
+    const done = () => {
+      if (finished) return;
+      finished = true;
+      clearTimeout(fallback);
+      ghost.remove();
+      incoming.classList.remove("nav-sliding");
+      incoming.style.transform = "";
+      navAnimating = false;
+    };
+    ghost.addEventListener("transitionend", done, { once: true });
+    const fallback = setTimeout(done, 420);
   }
 
   function renderSquad() {
@@ -529,7 +602,7 @@
       </button>`;
     }).join("");
 
-    appEl().innerHTML = `<section class="screen fade-in${wpClass()}">
+    appEl().innerHTML = `<section class="screen home-feed fade-in${wpClass()}">
       <div class="scroll home-scroll">
         <div class="search-ios">
           <input id="sqSearch" placeholder="Search" value="${esc(view.search||"")}" />
@@ -549,7 +622,6 @@
         </div>
         <div class="squad-card">${rows || `<div class="empty-space">no one matches</div>`}</div>
       </div>
-      ${navPill("home")}
     </section>`;
     $("#youCard").addEventListener("click", () => go("space", { person: "you" }));
     $$(".friend-row").forEach(b => b.addEventListener("click", () => {
@@ -560,7 +632,6 @@
     $("#addBtn").addEventListener("click", openAddFriend);
     $("#tellBtn").addEventListener("click", openTell);
     $("#gearBtn").addEventListener("click", openSettings);
-    bindNav();
     const s = $("#sqSearch");
     s.addEventListener("input", () => { view.search = s.value; renderSquad(); $("#sqSearch").focus(); });
   }
@@ -1705,7 +1776,6 @@
         <span style="width:36px"></span>
       </div>
       <div class="scroll" id="actScroll"></div>
-      ${navPill("activity")}
     </section>`;
     const root = $("#actScroll");
     root.innerHTML = items.map(a => {
@@ -1736,7 +1806,6 @@
       </div>`;
     }).join("") || `<div class="empty-space">nothing yet</div>`;
     $("#backBtn").addEventListener("click", () => go("squad"));
-    bindNav();
     $$("[data-reply]").forEach(b => b.addEventListener("click", () => { view.replyAct = b.dataset.reply; renderActivity(); }));
     $$("[data-rid]").forEach(f => f.addEventListener("submit", e => {
       e.preventDefault();
@@ -1889,17 +1958,6 @@
     device.appendChild(f);
     setTimeout(() => f.remove(), 850);
   }
-
-  function fitDevice() {
-    const el = document.getElementById("device");
-    if (!el) return;
-    const maxH = window.innerHeight - 64;
-    const maxW = window.innerWidth - 32;
-    const s = Math.min(1, maxH / 880, maxW / 420);
-    el.style.transform = "scale(" + s + ")";
-  }
-  window.addEventListener("resize", fitDevice);
-  fitDevice();
 
   load();
   if (state.user) go("squad");

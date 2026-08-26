@@ -1,4 +1,24 @@
 /* Mango — cream / white / green. */
+@font-face {
+  font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("/fonts/inter-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("/fonts/inter-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap;
+  src: url("/fonts/inter-600.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap;
+  src: url("/fonts/inter-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter"; font-style: normal; font-weight: 800; font-display: swap;
+  src: url("/fonts/inter-800.woff2") format("woff2");
+}
 :root {
   --bg: #FAF7F5;
   --paper: #FFFFFF;
@@ -9,7 +29,7 @@
   --blue: #007AFF;
   --purple: #7B61C6;
   --tan: #E8DFD6;
-  --font: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --ease: cubic-bezier(0.32, 0.72, 0, 1);
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bot: env(safe-area-inset-bottom, 0px);
@@ -20,7 +40,7 @@ html { -webkit-text-size-adjust: 100%; }
 body {
   font-family: var(--font);
   color: var(--ink);
-  background: #d8d0ca;
+  background: var(--page-bg, #FAF7F5);
   min-height: 100%;
   min-height: 100dvh;
   -webkit-font-smoothing: antialiased;
@@ -34,89 +54,21 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 
 .stage {
   min-height: 100%; min-height: 100dvh;
-  display: grid; place-items: center;
+  display: flex; justify-content: center;
   position: relative; overflow: hidden;
-  background: #d8d0ca;
-  padding: 24px 16px 40px;
-}
-.stage-caption {
-  position: absolute; bottom: 14px; left: 0; right: 0;
-  text-align: center; color: #8a827c; font-size: 11px;
-  letter-spacing: 0.16em; text-transform: lowercase; margin: 0; pointer-events: none;
+  background: var(--page-bg, #FAF7F5);
 }
 .device {
-  position: relative; width: 393px; height: 852px;
-  transform-origin: center center;
-  background: var(--bg);
-  border-radius: 55px; overflow: hidden;
-  box-shadow:
-    0 0 0 3px #1c1c1e,
-    0 0 0 14px #0a0a0a,
-    0 0 0 15.5px #3d3d3f,
-    0 28px 70px rgba(0,0,0,.38);
+  position: relative; width: 100%; max-width: 500px;
+  height: 100vh; height: 100dvh;
+  background: var(--bg); overflow: hidden;
 }
 .app { position: absolute; inset: 0; overflow: hidden; }
-
-.status-bar {
-  position: absolute; top: 0; left: 0; right: 0; z-index: 90;
-  height: 54px; padding: 0 28px 0 30px;
-  display: flex; align-items: flex-end;
-  justify-content: space-between;
-  color: var(--ink); pointer-events: none;
-  padding-bottom: 3px;
-}
-.status-time {
-  font-weight: 600; font-size: 17px; letter-spacing: 0.2px;
-  width: 72px; line-height: 22px; padding-bottom: 2px;
-}
-.status-right {
-  display: flex; align-items: center; gap: 7px;
-  width: 72px; justify-content: flex-end;
-  padding-bottom: 6px;
-}
-.cell { width: 17px; height: 12px; }
-.wifi { width: 16px; height: 12px; }
-.batt-ico {
-  width: 27px; height: 12px; border: 1.35px solid var(--ink);
-  border-radius: 3.5px; position: relative; padding: 1.5px; opacity: 0.95;
-}
-.batt-ico::after {
-  content: ""; position: absolute; right: -3.5px; top: 3px;
-  width: 1.6px; height: 5px; background: var(--ink); border-radius: 0 1px 1px 0;
-}
-.batt-ico b { display: block; height: 100%; width: 100%; background: var(--ink); border-radius: 1.5px; }
-
-.island {
-  position: absolute;
-  top: 11px; left: 50%; transform: translateX(-50%);
-  width: 126px; height: 37px;
-  background: #000;
-  border-radius: 24px;
-  z-index: 92;
-  box-shadow: 0 0 0 1px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.06);
-}
-.island-sensor {
-  position: absolute; left: 28px; top: 50%; transform: translateY(-50%);
-  width: 10px; height: 10px; border-radius: 50%;
-  background: radial-gradient(circle at 35% 30%, #243044, #0b0d12 72%);
-}
-.island-lens {
-  position: absolute; right: 18px; top: 50%; transform: translateY(-50%);
-  width: 11px; height: 11px; border-radius: 50%;
-  background: radial-gradient(circle at 38% 32%, #2a3d62, #07090e 68%);
-  box-shadow: inset 0 0 0 1.5px #101218, 0 0 0 0.5px #000;
-}
-
-.home-indicator {
-  position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%);
-  width: 134px; height: 5px; border-radius: 99px;
-  background: var(--ink); opacity: 0.18; z-index: 90; pointer-events: none;
-}
 
 .screen {
   position: absolute; inset: 0;
   display: flex; flex-direction: column;
-  padding-top: 54px; background: var(--bg); overflow: hidden;
+  padding-top: var(--safe-top); background: var(--bg); overflow: hidden;
 }
 .screen.wp-sunset { background: linear-gradient(180deg, #f3e6dc, var(--bg) 42%); }
 .screen.wp-mint { background: linear-gradient(180deg, #e4eee8, var(--bg) 42%); }
@@ -126,8 +78,11 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
     linear-gradient(180deg, rgba(250,247,245,.82), rgba(250,247,245,.92)),
     radial-gradient(circle at 30% 20%, #c9b8a8, var(--bg));
 }
+.screen.home-feed { background: #FFF0E6; }
+.screen.act-screen { background: #FFF0E6; }
 .screen.push-in { animation: pushIn 320ms var(--ease) both; }
 .screen.fade-in { animation: fadeIn 240ms var(--ease) both; }
+.screen.nav-sliding { animation: none; transition: transform 320ms var(--ease); will-change: transform; }
 @keyframes pushIn { from { transform: translateX(100%); } to { transform: none; } }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 .scroll { flex: 1; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
@@ -247,7 +202,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .star-mini { color: #F5C518; font-size: 11px; margin-left: 4px; }
 
 .nav-pill {
-  position: absolute; left: 50%; bottom: 28px; transform: translateX(-50%);
+  position: absolute; left: 50%; bottom: calc(28px + var(--safe-bot)); transform: translateX(-50%);
   z-index: 40;
   display: flex; align-items: center; gap: 4px;
   background: #fff; border-radius: 99px; padding: 6px 10px;
@@ -257,7 +212,8 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
   width: 44px; height: 36px; display: grid; place-items: center; color: #C5C9CE;
 }
 .nav-pill button.on { color: var(--ink); }
-.nav-pill svg { width: 24px; height: 24px; }
+.nav-pill svg { width: 28px; height: 28px; }
+.nav-pill[hidden] { display: none; }
 
 /* SPACE header */
 .space-head {
@@ -450,7 +406,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .dock {
   flex-shrink: 0; background: var(--bg);
   border-top: 0.5px solid var(--hair);
-  padding: 8px 12px 22px;
+  padding: 8px 12px calc(22px + var(--safe-bot));
 }
 .composer-text {
   width: 100%; border: 0; background: transparent;
@@ -628,7 +584,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .chat-body { margin-top: 3px; font-size: 15px; }
 .chat-sticker { font-size: 64px; line-height: 1.1; }
 .here-now { color: var(--green); font-weight: 600; }
-.chat-dock { background: #fff; border-top: 0.5px solid var(--hair); padding: 8px 12px 14px; }
+.chat-dock { background: #fff; border-top: 0.5px solid var(--hair); padding: 8px 12px calc(14px + var(--safe-bot)); }
 .inbox-row {
   display: flex; gap: 12px; width: 100%; text-align: left;
   padding: 12px 14px; border-bottom: 0.5px solid var(--hair); align-items: center;
@@ -739,13 +695,4 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   .loop-photo img, .booth img, .wand-box::after, .die.rolling, .listen .rings::before, .listen .rings::after { animation: none !important; }
   .screen { animation: none !important; }
-}
-@media (max-width: 480px) {
-  .stage { padding: 0; background: var(--bg); }
-  .stage-caption { display: none; }
-  .device { width: 100%; height: 100dvh; max-height: none; border-radius: 0; box-shadow: none; }
-  .status-bar { height: calc(54px + var(--safe-top)); padding-top: var(--safe-top); }
-  .island { top: calc(11px + var(--safe-top)); }
-  .screen { padding-top: calc(54px + var(--safe-top)); }
-  .home-indicator { bottom: calc(8px + var(--safe-bot)); }
 }
