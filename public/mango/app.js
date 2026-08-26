@@ -11,7 +11,7 @@
 
   const ICONS = {
     back: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-8 7 8 7"/></svg>`,
-    gear: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="3"/><path d="M12 3.5v1.8M12 18.7v1.8M4.8 6.6l1.3 1.3M17.9 17.1l1.3 1.3M3.5 12h1.8M18.7 12h1.8M4.8 17.4l1.3-1.3M17.9 6.9l1.3-1.3"/></svg>`,
+    gear: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.506,10.69825l-.34376-.38764a2,2,0,0,1-.23567-2.327L4.485,7.01632a2,2,0,0,1,2.133-.95941l.50768.10388A1.962,1.962,0,0,0,8.5,5.93774h0A1.962,1.962,0,0,0,9.3803,4.85906l.16385-.49153A2,2,0,0,1,11.44151,3h1.117a2,2,0,0,1,1.89736,1.36753l.16385.49153A1.962,1.962,0,0,0,15.5,5.93773h0a1.962,1.962,0,0,0,1.37435.22305l.50768-.10388a2,2,0,0,1,2.133.95941l.55848.96732a2,2,0,0,1-.23567,2.327l-.34376.38764A1.962,1.962,0,0,0,19,12h0a1.962,1.962,0,0,0,.49405,1.30175l.34376.38764a2,2,0,0,1,.23567,2.327l-.55849.96733a2,2,0,0,1-2.133.95941l-.50786-.10392a1.96185,1.96185,0,0,0-1.37415.223h0a1.96186,1.96186,0,0,0-.8803,1.07866l-.16387.49161A2,2,0,0,1,12.55847,21H11.44153a2,2,0,0,1-1.89737-1.36756l-.16387-.49161A1.96186,1.96186,0,0,0,8.5,18.06217h0a1.96185,1.96185,0,0,0-1.37415-.223L6.618,17.9431a2,2,0,0,1-2.133-.95941l-.55849-.96733a2,2,0,0,1,.23567-2.327l.34376-.38764A1.962,1.962,0,0,0,5,12H5A1.962,1.962,0,0,0,4.506,10.69825Z"/><circle cx="12" cy="12" r="3"/></svg>`,
     star: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 4l2.4 5.2 5.6.6-4.2 3.8 1.2 5.5L12 16.6 6.9 19.1l1.2-5.5L4 9.8l5.6-.6z"/></svg>`,
     starOn: `<svg viewBox="0 0 24 24" fill="#F5C518" stroke="#F5C518" stroke-width="1.2" stroke-linejoin="round"><path d="M12 4l2.4 5.2 5.6.6-4.2 3.8 1.2 5.5L12 16.6 6.9 19.1l1.2-5.5L4 9.8l5.6-.6z"/></svg>`,
     info: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8.2h.01" stroke-linecap="round"/></svg>`,
@@ -148,14 +148,15 @@
     { id: "hiss", emoji: "😾", label: "Hiss", verb: "hissed at", past: "hissed" }
   ];
   const AVATAR_COLORS = ["#E8896A", "#7BA3C9", "#8BB89A", "#C9A06B", "#9B8EC4", "#E07A9A"];
+  const PIC = n => "/assets/placeholders/profile-pics/pic-" + n + ".png";
   const PEOPLE = {
-    mira: { name: "Mira ✨", handle: "mira", color: "#E8A0B0", bio: "bodegas, pigeons, unhinged optimism" },
-    theo: { name: "Theo", handle: "theo", color: "#7BA3C9", bio: "aux cord diplomat. will DJ your crisis." },
-    sage: { name: "Sage 🌙", handle: "sage", color: "#8BB89A", bio: "soup and 47 unread messages" },
-    nico: { name: "Nico", handle: "nico", color: "#C9A06B", bio: "doodles and questionable dice" },
-    priya: { name: "Priya", handle: "priya", color: "#D4846A", bio: "walks on purpose. iced oat everything." },
-    jun: { name: "Jun", handle: "jun", color: "#9B8EC4", bio: "playlists named after feelings" },
-    lina: { name: "Lina 🐦", handle: "lina", color: "#E8B86D", bio: "will send you a bird fact, unprompted" }
+    mira: { name: "Mira ✨", handle: "mira", color: "#E8A0B0", bio: "bodegas, pigeons, unhinged optimism", photo: PIC(1) },
+    theo: { name: "Theo", handle: "theo", color: "#7BA3C9", bio: "aux cord diplomat. will DJ your crisis.", photo: PIC(2) },
+    sage: { name: "Sage 🌙", handle: "sage", color: "#8BB89A", bio: "soup and 47 unread messages", photo: PIC(3) },
+    nico: { name: "Nico", handle: "nico", color: "#C9A06B", bio: "doodles and questionable dice", photo: PIC(4) },
+    priya: { name: "Priya", handle: "priya", color: "#D4846A", bio: "walks on purpose. iced oat everything.", photo: PIC(5) },
+    jun: { name: "Jun", handle: "jun", color: "#9B8EC4", bio: "playlists named after feelings", photo: PIC(6) },
+    lina: { name: "Lina 🐦", handle: "lina", color: "#E8B86D", bio: "will send you a bird fact, unprompted", photo: PIC(7) }
   };
   const NICO_DOODLE = `<svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg" aria-label="a doodle">
     <rect width="300" height="180" fill="#fff"/>
@@ -310,15 +311,19 @@
   }
   function person(id) {
     if (id === "you" && state.user) {
-      return { name: state.user.name, handle: state.user.handle, color: state.user.color, bio: state.settings.bio || "" };
+      return { name: state.user.name, handle: state.user.handle, color: state.user.color, bio: state.settings.bio || "", photo: state.user.photo || PIC(8) };
     }
     return PEOPLE[id] || { name: id, handle: id, color: "#E8896A", bio: "" };
   }
   function avatar(id, size) {
     const p = person(id);
-    const initial = (p.name || "?").trim().charAt(0).toUpperCase();
     const on = state.online.indexOf(id) >= 0;
-    return `<div class="avatar ${size || ""}" style="background:${p.color}">${esc(initial)}${on && size !== "sm" ? `<i class="online-pip"></i>` : ""}</div>`;
+    const pip = on && size !== "sm" ? `<i class="online-pip"></i>` : "";
+    if (p.photo) {
+      return `<div class="avatar ${size || ""}"><img src="${esc(p.photo)}" alt="" />${pip}</div>`;
+    }
+    const initial = (p.name || "?").trim().charAt(0).toUpperCase();
+    return `<div class="avatar ${size || ""}" style="background:${p.color}">${esc(initial)}${pip}</div>`;
   }
   function latest(id) {
     const list = (state.posts[id] || []).slice().sort((a, b) => b.ts - a.ts);
@@ -569,6 +574,36 @@
     ghost.addEventListener("transitionend", done, { once: true });
     const fallback = setTimeout(done, 420);
   }
+  // Back/pop: the current screen slides off to the right, revealing the target
+  // beneath it (mirror of the push-in used when entering a space).
+  function slideBack(target, extra) {
+    const cur = appEl().querySelector(".screen");
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!cur || reduce || navAnimating) { go(target, extra); return; }
+    const ghost = cur.cloneNode(true);
+    ghost.classList.remove("fade-in", "push-in");
+    navAnimating = true;
+    go(target, extra);
+    const incoming = appEl().querySelector(".screen");
+    if (!incoming) { navAnimating = false; return; }
+    incoming.classList.remove("fade-in", "push-in");
+    // Mount the outgoing clone on top of the revealed target, then slide it away.
+    appEl().appendChild(ghost);
+    ghost.style.transform = "translateX(0)";
+    void ghost.offsetWidth;
+    ghost.classList.add("nav-sliding");
+    ghost.style.transform = "translateX(100%)";
+    let finished = false;
+    const done = () => {
+      if (finished) return;
+      finished = true;
+      clearTimeout(fallback);
+      ghost.remove();
+      navAnimating = false;
+    };
+    ghost.addEventListener("transitionend", done, { once: true });
+    const fallback = setTimeout(done, 420);
+  }
 
   function renderSquad() {
     const q = (view.search || "").toLowerCase();
@@ -597,8 +632,9 @@
         ${avatar(id)}
         <div class="meta">
           <div class="who">${esc(p.name)}${starred ? `<span class="star-mini">★</span>` : ""}</div>
-          <div class="preview">${dot}<span class="txt">${esc(previewText(post))}</span><span class="when">${post ? rel(post.ts) : ""}</span></div>
+          <div class="preview">${dot}<span class="txt">${esc(previewText(post))}</span></div>
         </div>
+        <span class="when">${post ? rel(post.ts) : ""}</span>
       </button>`;
     }).join("");
 
@@ -682,7 +718,7 @@
       ${dock}
     </section>`;
 
-    $("#backBtn").addEventListener("click", () => go("squad"));
+    $("#backBtn").addEventListener("click", () => slideBack("squad"));
     if (mine) {
       $("#gearBtn").addEventListener("click", openSettings);
       $("#actBtn").addEventListener("click", () => go("activity"));
@@ -991,6 +1027,8 @@
 
   function closeAllOverlays() {
     $$(".overlay", $("#device")).forEach(o => o.remove());
+    const stage = $(".stage");
+    if (stage) stage.classList.remove("dimmed");
     if (overlayEsc) { document.removeEventListener("keydown", overlayEsc); overlayEsc = null; }
   }
   function openOverlay(opts) {
@@ -1001,6 +1039,8 @@
     const sheet = $(".sheet", wrap);
     const close = () => {
       wrap.classList.remove("show");
+      const stage = $(".stage");
+      if (stage) stage.classList.remove("dimmed");
       document.removeEventListener("keydown", onEsc);
       overlayEsc = null;
       setTimeout(() => wrap.remove(), 300);
@@ -1011,7 +1051,11 @@
     wrap.addEventListener("click", e => { if (e.target.dataset.close) close(); });
     $("#device").appendChild(wrap);
     opts.build(sheet, close);
-    requestAnimationFrame(() => wrap.classList.add("show"));
+    requestAnimationFrame(() => {
+      wrap.classList.add("show");
+      const stage = $(".stage");
+      if (stage) stage.classList.add("dimmed");
+    });
     return { wrap, sheet, close };
   }
   function sheetChrome(sheet, title, extra) {
