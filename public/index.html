@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#FAF7F5" />
+
+    <title>Mango — share vividly</title>
+    <meta
+      name="description"
+      content="A playful, interactive friends-first social journal powered by magic words."
+    />
+    <meta name="application-name" content="Mango" />
+
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.svg" />
+
+    <!-- Open Graph. __SITE_URL__ is replaced with the deployed origin at build time. -->
+    <meta property="og:title" content="Mango — share vividly" />
+    <meta
+      property="og:description"
+      content="Friends, magic words, waves, and wonderfully low-stakes sharing."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="__SITE_URL__/og.png" />
+    <meta property="og:image:width" content="1730" />
+    <meta property="og:image:height" content="909" />
+    <meta property="og:image:alt" content="Mango — share vividly" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mango — share vividly" />
+    <meta
+      name="twitter:description"
+      content="Friends, magic words, waves, and wonderfully low-stakes sharing."
+    />
+    <meta name="twitter:image" content="__SITE_URL__/og.png" />
+
+    <link
+      rel="preload"
+      href="/fonts/inter-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/fonts/inter-600.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/fonts/inter-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/mango.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <div class="device" id="device">
+        <div id="app" class="app" aria-live="polite">
+          <noscript>
+            mango · share vividly — please enable JavaScript to continue.
+          </noscript>
+        </div>
+      </div>
+    </main>
+    <script src="/mango/app.js"></script>
+  </body>
+</html>

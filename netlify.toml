@@ -1,0 +1,12 @@
+# Netlify hosting for the Mango static prototype.
+# The app is 100% client-side (localStorage only, no APIs), so there is no
+# framework to build — we just assemble and publish the static files.
+
+[build]
+  command = "bash scripts/build-static.sh"
+  publish = "dist-static"
+
+[build.environment]
+  # We only need `cp`/`sed`, not the vinext/Cloudflare dev toolchain, so skip
+  # devDependencies to keep installs fast.
+  NPM_FLAGS = "--production"

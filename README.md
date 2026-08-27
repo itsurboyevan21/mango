@@ -32,6 +32,24 @@ npm run build
 node --test tests/rendered-html.test.mjs
 ```
 
+## Deploy (Netlify)
+
+The prototype is a fully client-side app (browser-local data, no APIs), so
+hosting is just static file serving — no framework runtime required.
+
+`scripts/build-static.sh` assembles the static site into `dist-static/`
+(gitignored): it copies `public/`, drops `app/mango.css` in next to the shell,
+and bakes the deploy origin into the Open Graph tags. `netlify.toml` points
+Netlify at that script and publishes `dist-static/`.
+
+Netlify is connected to this GitHub repo, so every push to `main` triggers a
+deploy automatically. To preview the exact static output locally:
+
+```bash
+bash scripts/build-static.sh
+npx serve dist-static
+```
+
 ## Current status
 
 This repository contains a polished interactive prototype, not yet a live multi-user network. The current data model is simulated in the browser and is intended to make the product direction tangible before investing in native and backend development.
