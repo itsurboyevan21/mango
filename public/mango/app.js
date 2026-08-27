@@ -12,9 +12,9 @@
   const ICONS = {
     back: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-8 7 8 7"/></svg>`,
     gear: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.506,10.69825l-.34376-.38764a2,2,0,0,1-.23567-2.327L4.485,7.01632a2,2,0,0,1,2.133-.95941l.50768.10388A1.962,1.962,0,0,0,8.5,5.93774h0A1.962,1.962,0,0,0,9.3803,4.85906l.16385-.49153A2,2,0,0,1,11.44151,3h1.117a2,2,0,0,1,1.89736,1.36753l.16385.49153A1.962,1.962,0,0,0,15.5,5.93773h0a1.962,1.962,0,0,0,1.37435.22305l.50768-.10388a2,2,0,0,1,2.133.95941l.55848.96732a2,2,0,0,1-.23567,2.327l-.34376.38764A1.962,1.962,0,0,0,19,12h0a1.962,1.962,0,0,0,.49405,1.30175l.34376.38764a2,2,0,0,1,.23567,2.327l-.55849.96733a2,2,0,0,1-2.133.95941l-.50786-.10392a1.96185,1.96185,0,0,0-1.37415.223h0a1.96186,1.96186,0,0,0-.8803,1.07866l-.16387.49161A2,2,0,0,1,12.55847,21H11.44153a2,2,0,0,1-1.89737-1.36756l-.16387-.49161A1.96186,1.96186,0,0,0,8.5,18.06217h0a1.96185,1.96185,0,0,0-1.37415-.223L6.618,17.9431a2,2,0,0,1-2.133-.95941l-.55849-.96733a2,2,0,0,1,.23567-2.327l.34376-.38764A1.962,1.962,0,0,0,5,12H5A1.962,1.962,0,0,0,4.506,10.69825Z"/><circle cx="12" cy="12" r="3"/></svg>`,
-    star: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 4l2.4 5.2 5.6.6-4.2 3.8 1.2 5.5L12 16.6 6.9 19.1l1.2-5.5L4 9.8l5.6-.6z"/></svg>`,
-    starOn: `<svg viewBox="0 0 24 24" fill="#F5C518" stroke="#F5C518" stroke-width="1.2" stroke-linejoin="round"><path d="M12 4l2.4 5.2 5.6.6-4.2 3.8 1.2 5.5L12 16.6 6.9 19.1l1.2-5.5L4 9.8l5.6-.6z"/></svg>`,
-    info: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8.2h.01" stroke-linecap="round"/></svg>`,
+    star: `<svg viewBox="0 0 15 15" fill="currentColor"><path d="M7.5 11.3649C7.5228 11.3649 7.5456 11.3674 7.56799 11.3724C7.61862 11.3837 7.66595 11.4126 7.76062 11.4705L10.8825 13.3773C11.2045 13.5739 11.3654 13.6723 11.4791 13.6542C11.5778 13.6385 11.663 13.5766 11.7084 13.4876C11.7608 13.385 11.717 13.2015 11.6295 12.8346L10.7807 9.27626C10.7549 9.16836 10.7421 9.1144 10.747 9.06276C10.7513 9.01709 10.7657 8.97294 10.789 8.93343C10.8154 8.88877 10.8575 8.85268 10.9417 8.78052L13.7199 6.4007C14.0065 6.15525 14.1497 6.03252 14.1677 5.9188C14.1833 5.82012 14.1507 5.71994 14.0801 5.64925C13.9987 5.56779 13.8107 5.55272 13.4346 5.52257L9.78819 5.23024C9.67762 5.22137 9.62232 5.21694 9.57473 5.19631C9.53263 5.17806 9.49507 5.15078 9.46472 5.11638C9.43039 5.07749 9.40909 5.02628 9.36649 4.92385L7.96165 1.54623C7.81676 1.19787 7.74432 1.02369 7.6417 0.971478C7.59718 0.948827 7.54859 0.937501 7.5 0.9375V11.3649Z"/><path d="M7.49965 0.9375C7.45105 0.937499 7.40246 0.948825 7.35793 0.971478C7.25532 1.02369 7.18287 1.19787 7.03798 1.54623L5.63315 4.92385C5.59055 5.02628 5.56925 5.07749 5.53492 5.11638C5.50456 5.15078 5.467 5.17806 5.42491 5.19631C5.37731 5.21694 5.32202 5.22137 5.21145 5.23023L1.56502 5.52257C1.18893 5.55272 1.00089 5.56779 0.919529 5.64925C0.848927 5.71994 0.816377 5.82012 0.831948 5.9188C0.849892 6.03252 0.99316 6.15525 1.2797 6.4007L4.05789 8.78052C4.14213 8.85268 4.18426 8.88877 4.21064 8.93343C4.23397 8.97294 4.24832 9.01709 4.25266 9.06276C4.25757 9.1144 4.24471 9.16835 4.21897 9.27625L3.37018 12.8346C3.28264 13.2015 3.23887 13.385 3.2912 13.4876C3.33661 13.5766 3.42182 13.6385 3.52049 13.6542C3.63419 13.6723 3.79518 13.5739 4.11716 13.3773L7.23902 11.4705C7.33368 11.4126 7.38102 11.3837 7.43165 11.3724C7.45404 11.3674 7.47685 11.3649 7.49965 11.3649V0.9375Z"/></svg>`,
+    starOn: `<svg viewBox="0 0 15 15" fill="#FFCB47"><path d="M7.5 11.3649C7.5228 11.3649 7.5456 11.3674 7.56799 11.3724C7.61862 11.3837 7.66595 11.4126 7.76062 11.4705L10.8825 13.3773C11.2045 13.5739 11.3654 13.6723 11.4791 13.6542C11.5778 13.6385 11.663 13.5766 11.7084 13.4876C11.7608 13.385 11.717 13.2015 11.6295 12.8346L10.7807 9.27626C10.7549 9.16836 10.7421 9.1144 10.747 9.06276C10.7513 9.01709 10.7657 8.97294 10.789 8.93343C10.8154 8.88877 10.8575 8.85268 10.9417 8.78052L13.7199 6.4007C14.0065 6.15525 14.1497 6.03252 14.1677 5.9188C14.1833 5.82012 14.1507 5.71994 14.0801 5.64925C13.9987 5.56779 13.8107 5.55272 13.4346 5.52257L9.78819 5.23024C9.67762 5.22137 9.62232 5.21694 9.57473 5.19631C9.53263 5.17806 9.49507 5.15078 9.46472 5.11638C9.43039 5.07749 9.40909 5.02628 9.36649 4.92385L7.96165 1.54623C7.81676 1.19787 7.74432 1.02369 7.6417 0.971478C7.59718 0.948827 7.54859 0.937501 7.5 0.9375V11.3649Z"/><path d="M7.49965 0.9375C7.45105 0.937499 7.40246 0.948825 7.35793 0.971478C7.25532 1.02369 7.18287 1.19787 7.03798 1.54623L5.63315 4.92385C5.59055 5.02628 5.56925 5.07749 5.53492 5.11638C5.50456 5.15078 5.467 5.17806 5.42491 5.19631C5.37731 5.21694 5.32202 5.22137 5.21145 5.23023L1.56502 5.52257C1.18893 5.55272 1.00089 5.56779 0.919529 5.64925C0.848927 5.71994 0.816377 5.82012 0.831948 5.9188C0.849892 6.03252 0.99316 6.15525 1.2797 6.4007L4.05789 8.78052C4.14213 8.85268 4.18426 8.88877 4.21064 8.93343C4.23397 8.97294 4.24832 9.01709 4.25266 9.06276C4.25757 9.1144 4.24471 9.16835 4.21897 9.27625L3.37018 12.8346C3.28264 13.2015 3.23887 13.385 3.2912 13.4876C3.33661 13.5766 3.42182 13.6385 3.52049 13.6542C3.63419 13.6723 3.79518 13.5739 4.11716 13.3773L7.23902 11.4705C7.33368 11.4126 7.38102 11.3837 7.43165 11.3724C7.45404 11.3674 7.47685 11.3649 7.49965 11.3649V0.9375Z"/></svg>`,
+    info: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3ZM11.25 10.5C10.8358 10.5 10.5 10.8358 10.5 11.25C10.5 11.6642 10.8358 12 11.25 12V16.5C11.25 16.9142 11.5858 17.25 12 17.25H12.75C13.1642 17.25 13.5 16.9142 13.5 16.5C13.5 16.0858 13.1642 15.75 12.75 15.75V11.25C12.75 10.8358 12.4142 10.5 12 10.5H11.25ZM12 6.75C11.4477 6.75 11 7.19772 11 7.75C11 8.30228 11.4477 8.75 12 8.75C12.5523 8.75 13 8.30228 13 7.75C13 7.19772 12.5523 6.75 12 6.75Z"/></svg>`,
     smileCheck: `<svg viewBox="0 0 24 24"><circle cx="11" cy="12" r="8" fill="#FFD60A" stroke="#1C1C1E" stroke-width="1.2"/><circle cx="8.2" cy="10.4" r="1"/><circle cx="13.6" cy="10.4" r="1"/><path d="M8.2 14c.9 1.3 2.3 2 3.8 2s2.9-.7 3.8-2" fill="none" stroke="#1C1C1E" stroke-width="1.2" stroke-linecap="round"/><circle cx="17.4" cy="17.2" r="4.1" fill="#fff" stroke="#1C1C1E" stroke-width="1"/><path d="M15.6 17.3l1.3 1.3 2.4-2.5" fill="none" stroke="#1C1C1E" stroke-width="1.3" stroke-linecap="round"/></svg>`,
     heartBox: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><path d="M12 16.2l-3.2-2.9a2 2 0 112.7-2.9l.5.5.5-.5a2 2 0 112.7 2.9z" stroke-linejoin="round"/></svg>`,
     cam: `<svg viewBox="0 0 28 24"><path d="M3.5 7.5h4l1.6-2.2h9.8l1.6 2.2H24.5v12H3.5z" fill="none" stroke="#1C1C1E" stroke-width="1.7" stroke-linejoin="round"/><circle cx="14" cy="13.4" r="3.6" fill="none" stroke="#1C1C1E" stroke-width="1.6"/><circle cx="14" cy="13.4" r="1.8" fill="#FFD60A"/></svg>`,
@@ -25,12 +25,12 @@
     smile: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8.2"/><circle cx="9" cy="10" r="1" fill="currentColor"/><circle cx="15" cy="10" r="1" fill="currentColor"/><path d="M8.6 14.2c.9 1.4 2.3 2.2 3.4 2.2s2.5-.8 3.4-2.2" stroke-linecap="round"/></svg>`,
     chats: `<svg viewBox="0 0 24 24" fill="none"><path d="M7.7168 3.52343C9.7064 3.36337 11.8446 4.12242 13.3584 5.4082C15.0442 6.84969 16.0893 8.90148 16.2656 11.1123C16.4527 13.3724 15.7261 15.6136 14.248 17.334C12.7871 19.051 10.8435 19.9469 8.61914 20.125C6.4676 20.1996 4.49902 19.5586 2.86914 18.1289C1.17562 16.6625 0.147452 14.5732 0.0175773 12.3369C-0.12217 10.1204 0.617634 7.9378 2.07617 6.26269C3.50865 4.63932 5.52996 3.65351 7.69141 3.52538L7.7168 3.52343ZM17.0537 4.66503C19.6845 4.64758 22.0043 6.16331 23.1992 8.47656C24.0678 10.1707 24.2371 12.1387 23.6699 13.956C23.0706 15.8235 21.8393 17.3713 20.083 18.2715C18.5177 19.0767 16.6949 19.2201 15.0225 18.6709C14.8208 18.5976 14.6496 18.5303 14.4844 18.458C14.6465 18.2945 14.807 18.1249 14.96 17.9453C15.5252 17.2874 15.9886 16.5594 16.3486 15.7871C16.5058 15.8216 16.6683 15.8479 16.8555 15.8584C17.7041 15.9053 18.537 15.6157 19.1738 15.0527C19.6815 14.596 20.0407 13.9793 20.0771 13.2881C19.6709 13.2735 19.2072 13.2834 18.7979 13.2832H17.1152C17.229 12.565 17.2624 11.8305 17.2061 11.0937L17.2012 11.0342C17.0242 8.82543 16.0653 6.76187 14.5127 5.20312C15.1874 4.9038 15.7864 4.75094 16.6416 4.67871C16.7648 4.6629 16.9284 4.66589 17.0537 4.66503ZM11.8477 13.4053C9.72651 13.3697 7.59139 13.4239 5.46875 13.4023C5.14232 13.399 4.8017 13.3957 4.47559 13.4043C4.49044 14.1328 4.89717 14.8632 5.41699 15.3584C6.87961 16.7511 9.34398 16.7855 10.8359 15.4238C11.4025 14.8787 11.8187 14.2157 11.8477 13.4053ZM19.0596 9.14355C18.4822 9.22852 18.0825 9.76538 18.167 10.3428C18.2515 10.9201 18.7878 11.3201 19.3652 11.2363C19.9436 11.1522 20.3444 10.6143 20.2598 10.0361C20.1748 9.45838 19.6374 9.05863 19.0596 9.14355ZM5.55762 8.72265C4.86948 8.72379 4.31207 9.28274 4.31348 9.9707C4.31515 10.6589 4.87517 11.2151 5.56348 11.2129C6.25086 11.2105 6.80636 10.6521 6.80469 9.96484C6.80284 9.27774 6.2448 8.72183 5.55762 8.72265ZM10.7158 8.72753C10.0318 8.76392 9.50617 9.34825 9.54199 10.0322C9.57811 10.7163 10.1624 11.2418 10.8467 11.206C11.5311 11.17 12.0576 10.5857 12.0215 9.90136C11.9853 9.21717 11.4002 8.69151 10.7158 8.72753Z" fill="currentColor"/></svg>`,
     chatsOff: `<svg viewBox="0 0 24 24" fill="none"><path d="M13.642 5.61603C15.3682 4.69945 17.1541 4.44963 19.0447 5.02947C20.8234 5.58129 22.3083 6.82077 23.1696 8.47258C24.0645 10.1923 24.244 12.1959 23.6692 14.0474C23.1204 15.8679 21.8665 17.3932 20.1869 18.2835C18.5916 19.1131 16.7346 19.2833 15.0151 18.7575C14.6198 18.6341 13.9123 18.3489 13.5724 18.1114C13.8055 17.925 14.196 17.509 14.394 17.279C14.7254 17.4778 15.389 17.7031 15.7685 17.7879C17.2327 18.1184 18.7684 17.8483 20.0322 17.0381C21.3995 16.1668 22.3658 14.7887 22.719 13.206C23.0776 11.6131 22.7831 9.94284 21.9009 8.56893C21.0805 7.298 19.7348 6.33304 18.2503 6.01698C17.1895 5.78759 16.0861 5.85541 15.0614 6.21294C14.9246 6.26034 14.576 6.39104 14.4615 6.46515C14.2215 6.17124 13.9216 5.8718 13.642 5.61603Z" fill="#ABAAAA"/><path d="M15.539 15.5545C15.9174 14.729 16.0984 14.1804 16.2672 13.2854C16.3535 13.3074 17.063 13.2972 17.1983 13.2972L19.0986 13.2968C19.4241 13.2967 19.792 13.2873 20.1129 13.2988C20.1037 13.9488 19.8471 14.4393 19.3859 14.8914C18.7313 15.5214 17.8538 15.8664 16.9454 15.8511C16.4417 15.8441 16.0028 15.7427 15.539 15.5545Z" fill="#ABAAAA"/><path d="M19.0066 9.27231C19.5951 9.19307 20.1364 9.60616 20.2155 10.1949C20.2947 10.7837 19.8815 11.3251 19.293 11.4041C18.7045 11.483 18.1635 11.07 18.0845 10.4814C18.0054 9.89282 18.4182 9.35154 19.0066 9.27231Z" fill="#ABAAAA"/><path d="M7.52441 3.56076C9.86936 3.36613 11.8658 4.11145 13.6416 5.61643C13.9212 5.8722 14.2219 6.17115 14.4619 6.46506C15.9724 8.31402 16.5784 10.4087 16.3369 12.7795C16.3196 12.949 16.3 13.1178 16.2676 13.2854C16.0987 14.1804 15.9175 14.7294 15.5391 15.5549C15.18 16.2441 14.8885 16.6757 14.3936 17.2785C14.2451 17.4509 13.9889 17.7284 13.7715 17.9348L13.5723 18.1115C12.417 19.2069 10.5786 19.9477 9.00098 20.0891C6.82603 20.2794 4.66453 19.5984 2.99121 18.1955C1.29754 16.7736 0.226985 14.8182 0.0371102 12.6067C-0.174948 10.3752 0.520974 8.15221 1.9668 6.43967C3.36993 4.78772 5.36595 3.75389 7.52441 3.56076ZM8.04004 4.87131C4.19859 4.9632 1.15842 8.15183 1.24805 11.9944C1.33786 15.8371 4.52358 18.8799 8.36524 18.7922C12.2096 18.7042 15.2539 15.5147 15.1641 11.6692C15.074 7.82376 11.8842 4.77958 8.04004 4.87131Z" fill="#5A5A5A"/><path d="M4.48352 13.4844L11.9218 13.483C11.9226 13.523 11.922 13.5631 11.9199 13.603C11.8808 14.4082 11.486 14.9512 10.9148 15.4708C10.1182 16.1168 9.30637 16.4186 8.27638 16.4497C6.60248 16.5005 4.51202 15.3444 4.48352 13.4844Z" fill="#5A5A5A"/><path d="M5.51994 8.77672C6.21629 8.72373 6.82424 9.24427 6.87933 9.94066C6.9344 10.637 6.41584 11.2467 5.71983 11.3039C5.02082 11.3614 4.40812 10.84 4.3528 10.1406C4.29749 9.44124 4.82061 8.82994 5.51994 8.77672Z" fill="#5A5A5A"/><path d="M10.7027 8.77943C11.3968 8.73191 11.9987 9.25452 12.0493 9.94857C12.0999 10.6426 11.5801 11.247 10.8865 11.3007C10.1885 11.3547 9.57966 10.8308 9.52875 10.1324C9.47785 9.43397 10.0043 8.82726 10.7027 8.77943Z" fill="#5A5A5A"/></svg>`,
-    heart: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 19l-6.2-5.6A3.8 3.8 0 1112 8.2a3.8 3.8 0 116.2 5.2z"/></svg>`,
-    heartOn: `<svg viewBox="0 0 24 24" fill="#FF3B30" stroke="#FF3B30" stroke-width="1.4" stroke-linejoin="round"><path d="M12 19l-6.2-5.6A3.8 3.8 0 1112 8.2a3.8 3.8 0 116.2 5.2z"/></svg>`,
-    bubble: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 6.5h14v9.5H9.5L5 19.5z" stroke-linejoin="round"/></svg>`,
-    share: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14V4M8 8l4-4 4 4"/><path d="M5 13v6h14v-6"/></svg>`,
-    chat: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 6h14v10H8l-3 3z" stroke-linejoin="round"/></svg>`,
-    more: `<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="6" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="18" cy="12" r="1.6"/></svg>`,
+    heart: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15.696 4C18.871 4 21 6.98 21 9.755C21 15.388 12.161 20 12 20C11.839 20 3 15.388 3 9.755C3 6.98 5.129 4 8.304 4C10.119 4 11.311 4.905 12 5.711C12.689 4.905 13.881 4 15.696 4Z"/></svg>`,
+    heartOn: `<svg viewBox="0 0 24 24" fill="#FF3B30" stroke="#FF3B30" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15.696 4C18.871 4 21 6.98 21 9.755C21 15.388 12.161 20 12 20C11.839 20 3 15.388 3 9.755C3 6.98 5.129 4 8.304 4C10.119 4 11.311 4.905 12 5.711C12.689 4.905 13.881 4 15.696 4Z"/></svg>`,
+    bubble: `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5882" stroke-linecap="round" stroke-linejoin="round"><path d="M4.541 17.003C3.577 15.571 3 13.857 3 12C3 7.029 7.029 3 12 3C16.971 3 21 7.029 21 12C21 16.971 16.971 21 12 21C10.474 21 9.04 20.613 7.78 19.943C6.434 20.661 4.907 21.084 3.276 21.084C2.842 21.084 2.419 21.045 2 20.99C3.173 19.923 4.055 18.553 4.541 17.003Z"/></svg>`,
+    share: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.082 8.95158C6.196 9.503 2.50256 13.6346 2.5 18.5516V19.1636C4.62349 16.6055 7.75786 15.1019 11.082 15.0466V18.2736C11.082 18.9482 11.6291 19.4953 12.304 19.4953C12.5786 19.4953 12.8452 19.4028 13.0608 19.2328L21.0508 12.9238C21.5622 12.5207 21.65 11.7794 21.247 11.268C21.1895 11.1951 21.1237 11.1292 21.0508 11.0718L13.0608 4.76276C12.531 4.34468 11.7626 4.43525 11.3445 4.96505C11.1744 5.18061 11.0818 5.44717 11.0818 5.72176L11.082 8.95158Z"/></svg>`,
+    chat: `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5882" stroke-linecap="round" stroke-linejoin="round"><path d="M4.541 17.003C3.577 15.571 3 13.857 3 12C3 7.029 7.029 3 12 3C16.971 3 21 7.029 21 12C21 16.971 16.971 21 12 21C10.474 21 9.04 20.613 7.78 19.943C6.434 20.661 4.907 21.084 3.276 21.084C2.842 21.084 2.419 21.045 2 20.99C3.173 19.923 4.055 18.553 4.541 17.003Z"/></svg>`,
+    more: `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 11.997C6.5 11.722 6.275 11.497 6 11.5C5.725 11.5 5.5 11.725 5.5 12C5.5 12.275 5.725 12.5 6 12.5C6.275 12.5 6.5 12.275 6.5 11.997Z"/><path d="M12.5 11.997C12.5 11.722 12.275 11.497 12 11.5C11.725 11.5 11.5 11.725 11.5 12C11.5 12.275 11.725 12.5 12 12.5C12.275 12.5 12.5 12.275 12.5 11.997Z"/><path d="M18.5 11.997C18.5 11.722 18.275 11.497 18 11.5C17.725 11.5 17.5 11.725 17.5 12C17.5 12.275 17.725 12.5 18 12.5C18.275 12.5 18.5 12.275 18.5 11.997Z"/></svg>`,
     sticker: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 4h9l5 5v11H6z"/><path d="M15 4v5h5"/><circle cx="10" cy="13" r=".8" fill="currentColor"/><circle cx="14.5" cy="13" r=".8" fill="currentColor"/><path d="M10 16.2c.8 1 1.8 1.4 2.4 1.4s1.6-.4 2.4-1.4" stroke-linecap="round"/></svg>`,
     reply: `<svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 7H13v5"/><path d="M4 7l3-3M4 7l3 3"/></svg>`
   };
@@ -407,7 +407,7 @@
     view = Object.assign({}, view, { screen: screen }, extra || {});
     render();
   }
-  function render() {
+  function render(opts) {
     clearTimers();
     const pageBg = (view.screen === "squad" || view.screen === "activity") ? "#FFF0E6" : "#FAF7F5";
     setThemeColor(pageBg);
@@ -417,7 +417,7 @@
     if (view.screen === "onboard") return renderOnboard(0);
     if (view.screen === "onboard2") return renderOnboard(1);
     if (view.screen === "squad") return renderSquad();
-    if (view.screen === "space") return renderSpace(view.person || "you");
+    if (view.screen === "space") return renderSpace(view.person || "you", !(opts && opts.noAnim));
     if (view.screen === "activity") return renderActivity();
     if (view.screen === "chat") return renderChat(view.chatId);
     if (view.screen === "chats") return renderChats();
@@ -672,7 +672,7 @@
     s.addEventListener("input", () => { view.search = s.value; renderSquad(); $("#sqSearch").focus(); });
   }
 
-  function renderSpace(id) {
+  function renderSpace(id, animate = true) {
     const p = person(id);
     const mine = id === "you";
     const posts = (state.posts[id] || []).slice().sort((a, b) => b.ts - a.ts);
@@ -682,9 +682,8 @@
       ? `<button type="button" class="icon-btn" id="gearBtn" aria-label="settings">${ICONS.gear}</button>
          <button type="button" class="icon-btn" id="actBtn" aria-label="activity">${ICONS.heartBox}</button>`
       : `<button type="button" class="icon-btn" id="starBtn" aria-label="favorite">${fav ? ICONS.starOn : ICONS.star}</button>
-         <button type="button" class="icon-btn" id="infoBtn" aria-label="info">${ICONS.info}</button>
          <button type="button" class="icon-btn" id="chatBtn" aria-label="chat">${ICONS.chat}</button>
-         <span class="icon-btn" title="friends">${ICONS.smileCheck}</span>`;
+         <button type="button" class="icon-btn" id="infoBtn" aria-label="info">${ICONS.info}</button>`;
     const gNote = (!mine && gestures) ? (() => {
       const a = ACTIONS.find(x => x.id === gestures.action);
       return `<div style="padding:0 16px 8px"><div style="display:inline-flex;align-items:center;gap:6px;background:#fff;border-radius:99px;padding:6px 12px;font-size:12px;font-weight:600">
@@ -703,7 +702,11 @@
       <div class="next-hint">drag up for the next friend</div>
     </div>`;
 
-    appEl().innerHTML = `<section class="screen push-in${wpClass()}">
+    // Preserve scroll position on in-place re-renders (likes/comments/favorite)
+    // so the page doesn't jump to the top when only the animation is suppressed.
+    const prevScroll = animate ? 0 : ($("#spaceScroll") ? $("#spaceScroll").scrollTop : 0);
+
+    appEl().innerHTML = `<section class="screen${animate ? " push-in" : ""}${wpClass()}">
       <div class="space-head">
         <button type="button" class="icon-btn" id="backBtn" aria-label="back">${ICONS.back}</button>
         ${avatar(id, "sm")}
@@ -718,6 +721,8 @@
       ${dock}
     </section>`;
 
+    if (!animate && $("#spaceScroll")) $("#spaceScroll").scrollTop = prevScroll;
+
     $("#backBtn").addEventListener("click", () => slideBack("squad"));
     if (mine) {
       $("#gearBtn").addEventListener("click", openSettings);
@@ -730,7 +735,7 @@
         if (i >= 0) f.splice(i, 1);
         else if (f.length < 20) f.push(id);
         else return toast("20 favorites max");
-        state.favorites = f; save(); renderSpace(id);
+        state.favorites = f; save(); renderSpace(id, false);
       });
       $("#infoBtn").addEventListener("click", () => openInfo(id));
       $("#chatBtn").addEventListener("click", () => go("chat", { chatId: id }));
@@ -915,12 +920,12 @@
   function bindPostEvents(ownerId) {
     $$("[data-heart]").forEach(b => b.addEventListener("click", e => {
       e.stopPropagation();
-      toggleHeart(b.dataset.heart); save(); renderSpace(ownerId);
+      toggleHeart(b.dataset.heart); save(); renderSpace(ownerId, false);
     }));
     $$("[data-cmt]").forEach(b => b.addEventListener("click", e => {
       e.stopPropagation();
       view.commenting = view.commenting === b.dataset.cmt ? null : b.dataset.cmt;
-      renderSpace(ownerId);
+      renderSpace(ownerId, false);
       const input = $(".comment-row input");
       if (input) input.focus();
     }));
@@ -932,15 +937,15 @@
       const pid = f.dataset.form;
       if (!state.comments[pid]) state.comments[pid] = [];
       state.comments[pid].push({ id: uid("c"), by: "you", text, ts: Date.now() });
-      view.commenting = null; save(); renderSpace(ownerId);
+      view.commenting = null; save(); renderSpace(ownerId, false);
     }));
     $$("[data-share]").forEach(b => b.addEventListener("click", () => toast("copied a pretend permalink")));
     $$(".post").forEach(el => {
-      el.addEventListener("dblclick", () => { toggleHeart(el.dataset.id); save(); renderSpace(ownerId); });
+      el.addEventListener("dblclick", () => { toggleHeart(el.dataset.id); save(); renderSpace(ownerId, false); });
       el.addEventListener("touchend", () => {
         const now = Date.now();
         if (lastTap.id === el.dataset.id && now - lastTap.t < 280) {
-          toggleHeart(el.dataset.id); save(); renderSpace(ownerId);
+          toggleHeart(el.dataset.id); save(); renderSpace(ownerId, false);
           lastTap = { id: null, t: 0 };
         } else lastTap = { id: el.dataset.id, t: now };
       });
@@ -1022,7 +1027,7 @@
     state.posts.you.push(p);
     save();
     view.person = "you"; view.screen = "space";
-    closeAllOverlays(); render(); toast("posted");
+    closeAllOverlays(); render({ noAnim: true }); toast("posted");
   }
 
   function closeAllOverlays() {
@@ -1934,7 +1939,7 @@
         </div>
       </div>
     </section>`;
-    $("#backBtn").addEventListener("click", () => go("space", { person: id }));
+    $("#backBtn").addEventListener("click", () => slideBack("space", { person: id }));
     $("#moreBtn").addEventListener("click", () => openInfo(id));
     composeTo = { kind: "chat", id };
     const input = $("#composer");
