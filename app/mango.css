@@ -237,12 +237,13 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .space-head .who { flex: 1; min-width: 0; }
 .space-head .who strong { display: block; font-size: 16px; font-weight: 700; line-height: 1.15; }
 .space-head .who span { color: var(--muted); font-size: 12px; font-weight: 400; }
-.space-tools { display: flex; align-items: center; gap: 0; }
+.space-tools { display: flex; align-items: center; gap: 8px; }
 
 /* Person's space page header: match the home-feed card styling
    (avatar, name, and subtext) — see .you-card / .friend-row. */
 .space-head.profile { gap: 14px; }
 .space-head.profile .avatar { width: 40px; height: 40px; font-size: 16px; }
+.space-head.profile .icon-btn svg { width: 26px; height: 26px; }
 .space-head.profile .meta { flex: 1; min-width: 0; }
 .space-head.profile .who { font-size: 16px; font-weight: 600; color: var(--ink); line-height: 1.2; }
 .space-head.profile .preview {
@@ -266,13 +267,16 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 }
 .post-foot .dash { opacity: 0.8; }
 .post-foot .sp { flex: 1; }
+/* Extra space between the adjacent like & comment buttons (on top of the row
+   gap). Only matches comment — share follows the .sp spacer, not a .meta-ico. */
+.post-foot .meta-ico + .meta-ico { margin-left: 8px; }
 .meta-ico {
   display: inline-flex; align-items: center; gap: 3px;
   color: var(--muted); font-size: 13px;
 }
 .meta-ico.on { color: #FF3B30; }
-.meta-ico svg { width: 16px; height: 16px; }
-.share-ico svg { width: 14px; height: 14px; }
+.meta-ico svg { width: 26px; height: 26px; }
+.share-ico svg { width: 26px; height: 26px; }
 
 .empty-space { text-align: center; color: var(--muted); padding: 48px 20px; }
 
