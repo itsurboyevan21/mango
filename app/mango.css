@@ -239,6 +239,17 @@ button:focus-visible, input:focus-visible, textarea:focus-visible {
 .space-head .who span { color: var(--muted); font-size: 12px; font-weight: 400; }
 .space-tools { display: flex; align-items: center; gap: 0; }
 
+/* Person's space page header: match the home-feed card styling
+   (avatar, name, and subtext) — see .you-card / .friend-row. */
+.space-head.profile { gap: 14px; }
+.space-head.profile .avatar { width: 40px; height: 40px; font-size: 16px; }
+.space-head.profile .meta { flex: 1; min-width: 0; }
+.space-head.profile .who { font-size: 16px; font-weight: 600; color: var(--ink); line-height: 1.2; }
+.space-head.profile .preview {
+  color: #8B95A7; font-size: 14px; font-weight: 400;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 3px;
+}
+
 .posts { padding-bottom: 8px; }
 .post {
   padding: 14px 16px 8px;
