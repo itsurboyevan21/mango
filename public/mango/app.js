@@ -640,9 +640,6 @@
 
     appEl().innerHTML = `<section class="screen home-feed fade-in${wpClass()}">
       <div class="scroll home-scroll">
-        <div class="search-ios">
-          <input id="sqSearch" placeholder="Search" value="${esc(view.search||"")}" />
-        </div>
         <button type="button" class="you-card" id="youCard">
           ${avatar("you")}
           <div class="meta">
@@ -668,8 +665,6 @@
     $("#addBtn").addEventListener("click", openAddFriend);
     $("#tellBtn").addEventListener("click", openTell);
     $("#gearBtn").addEventListener("click", openSettings);
-    const s = $("#sqSearch");
-    s.addEventListener("input", () => { view.search = s.value; renderSquad(); $("#sqSearch").focus(); });
   }
 
   function renderSpace(id, animate = true) {
